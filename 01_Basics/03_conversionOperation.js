@@ -27,8 +27,50 @@ let isLoggedIn = "vishva";
 // ---------------------------------------------------------------------------------------
 let someNumber = 55;
 
-console.log(typeof someNumber);
-console.log(someNumber);
+// console.log(typeof someNumber);
+// console.log(someNumber);
 let stringNumber = String(someNumber);
-console.log(typeof stringNumber);
-console.log(someNumber);
+// console.log(typeof stringNumber);
+// console.log(someNumber);
+
+
+////////////////////////////////////////////////  Operations ////////////////////////////////////////////////////////////////////////////////////
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
+
+// console.log(2+2); //4
+// console.log(2-2); //0
+// console.log(2/2); //1
+// console.log(2%2); //0
+// console.log(2*2); //4
+// console.log(2**3); //8
+
+let str1 = "Hello";
+let str2 = " Vishva";
+
+let str3 = str1 + str2;
+// console.log(str3);
+
+// console.log( "1" + 2);  //12
+// console.log( 1 + "2");  //12
+// console.log( "1" + "2"); //12
+// console.log( "1" + 2 + 2); // 122
+// console.log(1 + 2 + "2");  // 32
+
+// console.log(true); //true
+// console.log(+true); // 1
+
+
+let num =100;
+
+// console.log(num++); //output = 100     value = 101
+// console.log(++num); //output = 102     value = 102       
+// console.log(num--); //output = 102     value = 101
+// console.log(--num); //output = 100     value = 100 
+// console.log(--num);  //output = 99     value = 99
+// console.log(++num); //output = 100     value = 100
+// console.log(num--); //output = 100     value = 99
+// console.log(num++); //output = 99     value = 100
+// console.log(num--); //output = 100     value = 99
